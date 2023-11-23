@@ -1,0 +1,93 @@
+/* Alap stílusok */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Stílusok a "Receptek" szekcióhoz */
+
+.recipe {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.recipe h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Stílusok a "Blog" szekcióhoz */
+
+.blog-post {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-post h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Stílusok a lábléchez */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Responszív dizájn */
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+    nav ul li {
+        margin: 0 10px;
+    }
+    .recipe, .blog-post {
+        padding: 10px;
+    }
+    footer {
+        font-size: 12px;
+    }
+}

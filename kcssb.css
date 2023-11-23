@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+header {
+    font-size: 200%;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.kep{
+    padding: auto;
+    margin-top: 100px;
+}
+img{
+    padding-right: 30px;
+    padding-bottom: 30px;
+    float: left;
+    max-width: max-content;
+    width: 105%;
+    height: auto;
+}
+
+.szov{
+    width: 400px;
+    padding-left: 10px;
+    max-width: fit-content;
+    text-align: left;
+}
+
