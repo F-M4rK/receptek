@@ -1,4 +1,4 @@
-/* Alap stílusok */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -8,11 +8,15 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #9a5f5f;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+   
+    
 }
+
+
 
 header h1 {
     font-size: 32px;
@@ -37,7 +41,7 @@ section {
     padding: 20px;
 }
 
-/* Stílusok a "Receptek" szekcióhoz */
+
 
 .recipe {
     border: 1px solid #ccc;
@@ -51,7 +55,7 @@ section {
     margin: 0;
 }
 
-/* Stílusok a "Blog" szekcióhoz */
+
 
 .blog-post {
     background-color: #fff;
@@ -65,7 +69,7 @@ section {
     margin: 0;
 }
 
-/* Stílusok a lábléchez */
+
 
 footer {
     background-color: #333;
@@ -75,7 +79,13 @@ footer {
     font-size: 14px;
 }
 
-/* Responszív dizájn */
+.responsive {
+    width: 30%;
+    height: auto;
+  }
+  
+
+
 
 @media (max-width: 768px) {
     header h1 {
@@ -87,7 +97,5 @@ footer {
     .recipe, .blog-post {
         padding: 10px;
     }
-    footer {
-        font-size: 12px;
-    }
+   
 }
